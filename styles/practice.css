@@ -72,6 +72,7 @@
     color: white;
     border: none;
 }
+         /* About Us starts from here */
 .about-us-title {
     text-align: center;
     font-size: 55px;
@@ -83,5 +84,13 @@
     align-items: center;
 }
 .about-us-picture {
-    width: 320px;
+    width: 300px;
+}
+.text-title {
+    font-size: 25px;
+}
+.box {
+    width: 230px;
+    height: 250px;
+    box-shadow: 4px 4px 15px gray;
 }

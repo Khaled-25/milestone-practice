@@ -72,25 +72,75 @@
     color: white;
     border: none;
 }
-         /* About Us starts from here */
+
+/* About Us starts from here */
 .about-us-title {
     text-align: center;
     font-size: 55px;
     margin-top: 20px;
 }
+
 .about-us-container {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
+
 .about-us-picture {
     width: 300px;
 }
+
 .text-title {
     font-size: 25px;
 }
+
+/* Our service section starts from here */
+
+.service-cotainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .box {
-    width: 230px;
-    height: 250px;
-    box-shadow: 4px 4px 15px gray;
+    width: 215px;
+    height: 260px;
+    box-shadow: 4px 4px 20px gray;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+.service-image {
+    width: 70px;
+    margin-bottom: 12px;
+}
+
+.button-secondary {
+    padding: 7px 15px;
+    color: white;
+    background-color: gray;
+    margin-bottom: 20px;
+}
+
+.service-title {
+    margin-bottom: 12px;
+    font-size: 25px;
+}
+
+.service-description {
+    margin-bottom: 12px;
+}
+
+.service-section {
+    background-image: url(../images/background.png),
+        linear-gradient(45deg, #161616, #1d1c1c);
+}
+
+.our-service {
+    color: white;
+    text-align: center;
+    font-size: 55px;
+    margin-top: 20px;
 }
